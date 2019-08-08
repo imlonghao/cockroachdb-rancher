@@ -5,7 +5,7 @@ MAINTAINER Byte Pixie <hello@bytepixie.com>
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends \
 		ca-certificates \
-		libssl1.0.0 \
+		libssl1.1 \
 		logrotate \
 		curl \
 	&& apt-get clean \
